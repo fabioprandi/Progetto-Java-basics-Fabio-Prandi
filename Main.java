@@ -5,8 +5,11 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,9 +18,9 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class Main {
-    private static final String prenotazioni = "C:\\Users\\fabio\\Desktop\\prog\\yu\\prenotazioni.csv";
-    private static final String viaggi = "C:\\Users\\fabio\\Desktop\\prog\\yu\\viaggi.csv";
-    private static final String utenti = "C:\\Users\\fabio\\Desktop\\prog\\yu\\utenti.csv";
+    private static final String prenotazioni = "C:\\Users\\fabio\\Desktop\\prog\\Progetto java basics Fabio Prandi\\resources\\prenotazioni.csv";
+    private static final String viaggi = "C:\\Users\\fabio\\Desktop\\prog\\Progetto java basics Fabio Prandi\\resources\\viaggi.csv";
+    private static final String utenti = "C:\\Users\\fabio\\Desktop\\prog\\Progetto java basics Fabio Prandi\\resources\\utenti.csv";
     private static final String DELIMITER = ";";
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
